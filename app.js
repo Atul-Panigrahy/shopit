@@ -8,7 +8,6 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 const productRouter = require('./routes/product');
 const groupRouter = require('./routes/group');
-
 require('./db')();
 var app = express();
 
